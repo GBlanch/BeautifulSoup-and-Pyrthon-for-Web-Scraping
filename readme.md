@@ -37,9 +37,10 @@ And so we begin by defining the variable for the html file:
 
 Note that we can also assign a variable `key_word_search `to replace the content of key word `nkw` on the URL address. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
 
-Next we load the html file into memory with the function `uReq` and we can also have a look at the 
+Next we load the html file into memory with the function `uReq` and we can also have a look at the content of this object:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/cbb65d60-ca40-4928-9399-1dadf41d5907)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/b8e7155f-f150-4f87-856a-363a3a32cbdb)
+
 
 This output is not easy to read, and here's where we need BeautifulSoup to arrange it further on. Once the variable `html_page` is assigned, we ill also close the client object:
 
