@@ -33,9 +33,18 @@ As usual, we first import the needed libraries we will be needing. These being: 
 
 And so we begin by defining the variable for the html file:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a1e1fc3c-ba67-41d9-a4c2-7ab239584847)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/951df0c8-ef6e-4315-91fd-a5e8f3ea6cd4)
 
-Note that we can also assing a variable to the key word on the URL so that our script can be modified without having to access to any web browser.
+Note that we can also assing a variable to the key word `nkw` on the URL address so that our script can be modified without having to access to any web browser.
 
-Next we load the html file into memory
+Next we load the html file into memory with the function `uReq` and also to read and cloe the actual html file in our IDE:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/914bbe90-bd0b-4333-bc31-c70953304071)
+
+And so we have our data ready to be parsed with BeautifulSoup. We create a variable wirth the last variable we created above
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
+
+
+
 
