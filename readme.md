@@ -59,12 +59,12 @@ We can also isolate only the numeric value with the currency sign as shown below
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/503f36d2-d55e-4973-9fe9-adaa045ae403)
 
 
-Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all 
+Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all. To do this, we create an empty list and run a for-loop to iterate over the `bs4.ResultSet` list called `span_tag` list we found above. This is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/cfeba8a0-6cff-49de-8dc4-1707adfd5f3e)
 
 
-Looking into the type of these elements, we find out they're strings. Hence, we need to cast them into a numeric value:
+Looking into the type of these elements inside this `span_tag` list, we find out they're strings. Hence, we need to cast them into a numeric value:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3c9733fb-a183-4318-bad8-c764e93fc496)
 
