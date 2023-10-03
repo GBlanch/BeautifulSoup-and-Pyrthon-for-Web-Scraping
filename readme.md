@@ -25,6 +25,6 @@ And if we check the `robots.txt` file, we check that the access to this director
 
 
 
-Moreover, and since there are server and performance costs for the website owners when their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
+Last but not least, and since there are some server and performance costs for the website owners everytime their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
 
-more information about this can be found in this website[ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
+There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
