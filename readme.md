@@ -76,11 +76,11 @@ And so Python complains about not being able to parse the non-numerical values a
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f78f536b-8097-4a10-b1a4-80bb18116353)
 
-We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df1`, and after removing these, we confirm as well they are eliminated from the new declared dataframe `df1`:
+We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df1` , we will remove these and we confirm they don't exist anymore. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/e6fdebe5-3805-4499-81a0-2caf8e14941f)
 
-Finally we can store this dataframe `df1` into a csv file and store it in the local folder we're running this web scraping script:
+Finally we can parse this dataframe `df1` into a `csv` file and store it in the local folder where this web scraping script is runing :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a7a346aa-7e7d-407e-bae7-628fd2d7eac7)
 
