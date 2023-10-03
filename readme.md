@@ -16,7 +16,7 @@ The purpose of this repository is to showcase a basic web scraping case and thei
 
 Prior to retrieving any data from any website, we must know whether or not that website allows to do so. Under the `terms and conditions of service` of the website/service of most websites, it is normally specified whether they allow web scraping or not. 
 
-Another way to technically know if we can fetch certain website data is to check whether or not the web directory we’re trying to access is allowed to be scraped. We can check this by adding `robots.txt` at the end of the root directory of their website. For instance, in this case it is:
+Another way to acknowledge the legitimacy of our web scaping practices is to check whether or not the web directory we’re trying to access is permitted to be scraped. We can check this by adding `robots.txt` at the end of the root directory of their website. For instance, in this case it is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/ac71c1bb-ce67-4713-bd88-a16a01916461)
 
