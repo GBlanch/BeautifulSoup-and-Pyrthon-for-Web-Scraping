@@ -41,32 +41,39 @@ Next we load the html file into memory with the function `uReq` and also to read
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/914bbe90-bd0b-4333-bc31-c70953304071)
 
-And so we have our data ready to be parsed with BeautifulSoup. We create a variable wirth the last variable we created above
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` with the last variable `html_page ` we created above
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
-When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define them
+When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define them:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
+Now that we know that `tag` and `class`  are the names which define the pice in HTML code, we can insert them as arguments into the `findAll()` function. We can fecth therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
-We can also isolate only the numeric value with the currency sign of a single observation as shown below:
-
+We can also even isolate only the numeric value with the currency sign of a single observation as shown below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/503f36d2-d55e-4973-9fe9-adaa045ae403)
 
+But we want to apply this filters and the rest of the cleaning process to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same operations to them all. To do this, we create an empty list and run a for-loop to iterate over the list `span_tag` we are about to declare. This is:
 
-But we want to apply this filters to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same filtering and manipulation with them all. To do this, we create an empty list and run a for-loop to iterate over the list `span_tag` we are about to declare. This is:
-
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9106ea18-74b7-425e-8d34-8231690fd075)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/8b61465e-1cdb-4f83-8908-c4e471053518)
 
 
-Looking into the type of these elements inside this `span_tag` list, we confirm they're strings. Hence, we need to cast them into a numeric value:
+Please notice the omision of the 1st position of each string in the for-loop through indexing `[1:]`.
+Looking into the type of these elements of this `span_tag` list, we confirm they're strings.
+Hence, we need to cast them into a numeric value. 
+When we try to run :
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3c9733fb-a183-4318-bad8-c764e93fc496)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
+
+
+The main 2 obstacles we will find to cast these strings into numeric values are going to be the $ sign at the begining or in the middle of the string. 
+
+For the former case, we can create a list in which we will exclude the 1st position of each string. This is:
+
 
 
 
