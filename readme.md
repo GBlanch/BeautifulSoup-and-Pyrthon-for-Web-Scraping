@@ -59,18 +59,20 @@ We can also even isolate only the numeric value with the currency sign of a sing
 
 But we want to apply this filters and the rest of the cleaning process to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same operations to them all. To do this, we create an empty list and run a for-loop to iterate over the list `span_tag` we are about to declare. This is:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/8b61465e-1cdb-4f83-8908-c4e471053518)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/67eeafd7-a3be-4190-a6a4-81d10477fcfa)
 
 
-Please notice the omision of the 1st position of each string in the for-loop through indexing `[1:]`.
-Looking into the type of these elements of this `span_tag` list, we confirm they're strings.
-Hence, we need to cast them into a numeric value. 
-When we try to run :
+Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop through the indexing `[1:]`. We also could have used the `strip()` method to achieve this end.
+Looking into the type of these elements of this `span_tag` list, we confirmed they're strings. 
+Hence, we need to cast them into a numeric value and so we try to run the function `to_numeric`:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
 
 
-The main 2 obstacles we will find to cast these strings into numeric values are going to be the $ sign at the begining or in the middle of the string. 
+And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` as the script reads:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/d9cbaaba-776f-436b-a2d3-c9e2f245467c)
+
 
 For the former case, we can create a list in which we will exclude the 1st position of each string. This is:
 
