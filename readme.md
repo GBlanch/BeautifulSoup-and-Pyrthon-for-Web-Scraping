@@ -67,7 +67,7 @@ To do this, we create an empty list `span_tag` and we run a for-loop to iterate 
 
 Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
 
-Moving foward, and as we saw before, the type of each string in this list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
+Moving foward, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
@@ -76,7 +76,13 @@ And so Python complains about not being able to parse the non-numerical values a
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f78f536b-8097-4a10-b1a4-80bb18116353)
 
+We next get rid of the NaN values. We confirm there are 3 amongst the origina dataframe, and after removing them, we confirm as well they are eliminated from the new declared dataframe `df1`:
 
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/e6fdebe5-3805-4499-81a0-2caf8e14941f)
+
+Finally we can store this dataframe `df1` into a csv file and store it in the local folder we're running this web scraping script:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a7a346aa-7e7d-407e-bae7-628fd2d7eac7)
 
 
 
