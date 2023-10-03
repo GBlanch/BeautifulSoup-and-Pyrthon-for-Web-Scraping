@@ -55,7 +55,9 @@ Now that we know the `tag` and `class` names, we can insert them as arguments in
 
 We can also isolate only the numeric value with the currency sign as shown below:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f87ffc1f-74f1-4312-84db-cf243aa34f9c)
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/503f36d2-d55e-4973-9fe9-adaa045ae403)
+
 
 Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all 
 
