@@ -4,7 +4,7 @@
 
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
-+ [HTML variable peparation]()
++ [Good to code](#good-to-code)
 + [Patterns and Coding]
 
 ## Introduction
@@ -29,6 +29,9 @@ And if we check `eBay`'s `robots.txt` file, we can verify that the access to thi
 Last but not least, and since there are some server and performance costs for the website owners every time their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
+
+
+## Good to code
 
 As usual, we first import the needed libraries we will be needing. These being: `BeautifulSoup` so that we can interact and handle the data within the html website file, and `urllib.request` in order to get the website html file into a `Python` variable. Of course we'll also need `Pandas` to create and handle our Dataframes.
 
