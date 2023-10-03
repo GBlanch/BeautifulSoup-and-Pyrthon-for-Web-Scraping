@@ -45,6 +45,8 @@ And so we have our data ready to be parsed with BeautifulSoup. We create a varia
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
+When highlighting and inspecting any element of the website, we can see the `tags` and `classes` that define them
 
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1b42eccd-b877-43f2-aa38-678f321bc0a8)
 
 
