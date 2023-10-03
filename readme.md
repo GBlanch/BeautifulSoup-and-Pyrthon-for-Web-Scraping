@@ -20,13 +20,9 @@ Another way to technically know if we can fetch certain website data is to check
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/ac71c1bb-ce67-4713-bd88-a16a01916461)
 
-And if we check the `robots.txt` file, we check that the access to this directory is allowed by eBay, as shown below:
+And if we check the `robots.txt` file, we can verify that the access to this directory is allowed by eBay, as shown below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3a6c0cbf-9f1d-4323-ad33-5e0031b7e3d9)
-
-
-
-
 
 
 Last but not least, and since there are some server and performance costs for the website owners everytime their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
