@@ -61,7 +61,8 @@ We can also isolate only the numeric value with the currency sign as shown below
 
 Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all 
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/44096b89-452f-4e36-bc03-817932eb4c74)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/cfeba8a0-6cff-49de-8dc4-1707adfd5f3e)
+
 
 Looking into the type of these elements, we find out they're strings. Hence, we need to cast them into a numeric value:
 
