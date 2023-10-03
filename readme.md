@@ -54,6 +54,7 @@ When highlighting and inspecting any element of the website, we can see the `tag
 
 We can also isolate only the numeric value with the currency sign
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/e4f867a2-d0a6-4d3c-99e1-10b42276ad93)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f87ffc1f-74f1-4312-84db-cf243aa34f9c)
+
 
 
