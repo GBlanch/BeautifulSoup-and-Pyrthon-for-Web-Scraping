@@ -53,18 +53,18 @@ Now that we know the `tag` and `class` names, we can insert them as arguments in
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
-We can also isolate only the numeric value with the currency sign as shown below:
+We can also isolate only the numeric value with the currency sign of a single observation as shown below:
 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/503f36d2-d55e-4973-9fe9-adaa045ae403)
 
 
-Now we want to apply this filters to the entire findings. Therefore, we will store them in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all. To do this, we create an empty list and run a for-loop to iterate over the list  `span_tag` we found above. This is:
+But we want to apply this filters to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same filtering and manipulation with them all. To do this, we create an empty list and run a for-loop to iterate over the list `span_tag` we are about to declare. This is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9106ea18-74b7-425e-8d34-8231690fd075)
 
 
-Looking into the type of these elements inside this `span_tag` list, we find out they're strings. Hence, we need to cast them into a numeric value:
+Looking into the type of these elements inside this `span_tag` list, we confirm they're strings. Hence, we need to cast them into a numeric value:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3c9733fb-a183-4318-bad8-c764e93fc496)
 
