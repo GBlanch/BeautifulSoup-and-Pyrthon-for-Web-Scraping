@@ -25,7 +25,7 @@ And if we check the `robots.txt` file, we can verify that the access to this dir
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3a6c0cbf-9f1d-4323-ad33-5e0031b7e3d9)
 
 
-Last but not least, and since there are some server and performance costs for the website owners everytime their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
+Last but not least, and since there are some server and performance costs for the website owners every time their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
 
@@ -35,9 +35,9 @@ And so we begin by defining the variable for the html file:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/951df0c8-ef6e-4315-91fd-a5e8f3ea6cd4)
 
-Note that we can also assing a variable to the key word `nkw` on the URL address so that our script can be modified without having to access to any web browser.
+Note that we can also assign a variable `key_word_search `to replace the content of key word `nkw` on the URL address. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
 
-Next we load the html file into memory with the function `uReq` and also to read and cloe the actual html file in our IDE:
+Next we load the html file into memory with the function `uReq` and also to read and close the actual html file in our IDE:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/914bbe90-bd0b-4333-bc31-c70953304071)
 
@@ -49,7 +49,7 @@ When highlighting and inspecting any element of the website, we can see the `tag
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-Now that we know that `tag` and `class`  are the names which define the pice in HTML code, we can insert them as arguments into the `findAll()` function. We can fecth therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
+Now that we know that `tag` and `class` are the names which define the price in the HTML code, we can insert them as arguments into the `findAll()` function. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
@@ -58,14 +58,14 @@ We can also even isolate only the price value with the currency sign of a single
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/78d8c04f-d8cb-4e97-b683-78b814277f00)
 
 
-But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same operations to them all. 
+But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
 To do this, we create an empty list `span_tag` and we run a for-loop to iterate over this list we are about to declare. All this is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
 
 
-Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
+Please notice the omission  of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
 
 Moving foward, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
 
@@ -76,7 +76,7 @@ And so Python complains about not being able to parse the non-numerical values a
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f78f536b-8097-4a10-b1a4-80bb18116353)
 
-We next get rid of the NaN values. We confirm there are 3 amongst the origina dataframe, and after removing them, we confirm as well they are eliminated from the new declared dataframe `df1`:
+We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df1`, and after removing these, we confirm as well they are eliminated from the new declared dataframe `df1`:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/e6fdebe5-3805-4499-81a0-2caf8e14941f)
 
