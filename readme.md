@@ -20,7 +20,7 @@ Another way to technically know if we can fetch certain website data is to check
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/ac71c1bb-ce67-4713-bd88-a16a01916461)
 
-And if we check `eBay`'s `robots.txt` file, we can verify that the access to this directory is allowed by eBay, as shown below:
+And if we check `eBay`'s `robots.txt` file, we can verify that the access to this directory is allowed, as shown below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3a6c0cbf-9f1d-4323-ad33-5e0031b7e3d9)
 
@@ -37,11 +37,15 @@ And so we begin by defining the variable for the html file:
 
 Note that we can also assign a variable `key_word_search `to replace the content of key word `nkw` on the URL address. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
 
-Next we load the html file into memory with the function `uReq` and also to read and close the actual html file in our IDE:
+Next we load the html file into memory with the function `uReq` and we can also have a look at the 
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/914bbe90-bd0b-4333-bc31-c70953304071)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/cbb65d60-ca40-4928-9399-1dadf41d5907)
 
-And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` with the last variable `html_page ` we created above
+This output is not easy to read, and here's where we need BeautifulSoup to arrange it further on. Once the variable `html_page` is assigned, we ill also close the client object:
+
+
+
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` with the last variable `html_page ` we created above. As you may know, this is a large and n
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
