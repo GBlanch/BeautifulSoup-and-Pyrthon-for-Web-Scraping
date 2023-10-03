@@ -4,8 +4,8 @@
 
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
-+ [Data fetching]()
-+ [Automation through Azure Functions]
++ [HTML variable peparation]()
++ [Patterns and Coding]
 
 ## Introduction
 
@@ -28,3 +28,14 @@ And if we check the `robots.txt` file, we can verify that the access to this dir
 Last but not least, and since there are some server and performance costs for the website owners everytime their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
+
+As usual, we first import the needed libraries we will be needing. These being: `BeautifulSoup` so that we can interact and handle the data within the html website file, and `urllib.request` in order to get the website html file into a `Python` variable. Of course we'll also need `Pandas` to create and handle our Dataframes.
+
+And so we begin by defining the variable for the html file:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a1e1fc3c-ba67-41d9-a4c2-7ab239584847)
+
+Note that we can also assing a variable to the key word on the URL so that our script can be modified without having to access to any web browser.
+
+Next we load the html file into memory
+
