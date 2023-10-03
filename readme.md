@@ -49,13 +49,25 @@ When highlighting and inspecting any element of the website, we can see the `tag
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole or individually, this is:
+Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole, as an interval or individually, this is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
-We can also isolate only the numeric value with the currency sign
+We can also isolate only the numeric value with the currency sign as shown below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f87ffc1f-74f1-4312-84db-cf243aa34f9c)
+
+Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all 
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/44096b89-452f-4e36-bc03-817932eb4c74)
+
+Looking into the type of these elements, we find out they're strings. Hence, we need to cast them into a numeric value:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3c9733fb-a183-4318-bad8-c764e93fc496)
+
+
+
+
 
 
 
