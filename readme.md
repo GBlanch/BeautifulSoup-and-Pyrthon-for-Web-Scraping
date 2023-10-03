@@ -53,24 +53,22 @@ Now that we know that `tag` and `class`  are the names which define the pice in 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
-We can also even isolate only the price value with the currency sign of a single observation as shown below. Looking into the type of a single element of this list, we confirmed they are strings:
+We can also even isolate only the price value with the currency sign of a single observation as shown below. Also, looking into the type of a single element of the list, we confirm they are strings:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/78d8c04f-d8cb-4e97-b683-78b814277f00)
 
 
 But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perfrom the same operations to them all. 
 
-To do this, we create an empty list and run a for-loop to iterate over the list `span_tag` we are about to declare. Looking into the type of these elements of this `span_tag` list, we confirmed they're strings. All this is:
+To do this, we create an empty list `span_tag` and we run a for-loop to iterate over this list we are about to declare. All this is:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/67eeafd7-a3be-4190-a6a4-81d10477fcfa)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
 
 
-Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop through the indexing `[1:]`. We also could have used the `strip()` method to achieve this end.
+Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. As we saw before, the  type of each string in this list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
 
-Hence, we need to cast them into a numeric value and so we try to run the function `to_numeric`:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
-
 
 And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` as the script reads:
 
