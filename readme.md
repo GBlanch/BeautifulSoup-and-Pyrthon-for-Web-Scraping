@@ -49,7 +49,7 @@ When highlighting and inspecting any element of the website, we can see the `tag
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole, as an interval or individually, this is:
+Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
@@ -59,9 +59,9 @@ We can also isolate only the numeric value with the currency sign as shown below
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/503f36d2-d55e-4973-9fe9-adaa045ae403)
 
 
-Now we want to apply this changes to the entire objects. Therefore, we will store in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all. To do this, we create an empty list and run a for-loop to iterate over the `bs4.ResultSet` list called `span_tag` list we found above. This is:
+Now we want to apply this filters to the entire findings. Therefore, we will store them in a variable named `span_tag` so that we can perfrom the same manupulation operations with them all. To do this, we create an empty list and run a for-loop to iterate over the list  `span_tag` we found above. This is:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/cfeba8a0-6cff-49de-8dc4-1707adfd5f3e)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9106ea18-74b7-425e-8d34-8231690fd075)
 
 
 Looking into the type of these elements inside this `span_tag` list, we find out they're strings. Hence, we need to cast them into a numeric value:
