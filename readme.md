@@ -45,10 +45,11 @@ And so we have our data ready to be parsed with BeautifulSoup. We create a varia
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
-When highlighting and inspecting any element of the website, we can see the `tags` and `classes` that define them
+When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define them
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
+Now that we know the `tag` and `class` names, we can insert them as arguments into the `findAll()` function. We can fecth the values as a whole or individually, this is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
