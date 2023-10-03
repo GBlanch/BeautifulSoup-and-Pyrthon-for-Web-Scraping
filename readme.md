@@ -42,8 +42,9 @@ Next we load the html file into memory with the function `uReq` and we can also 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/b8e7155f-f150-4f87-856a-363a3a32cbdb)
 
 
-This output is not easy to read, and here's where we need BeautifulSoup to arrange it further on. Once the variable `html_page` is assigned, we ill also close the client object:
+This output is not easy to read, and here's where we need BeautifulSoup to arrange it further on. Once the variable `html_page` is assigned, we will also close the client object:
 
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/79d99542-c5d6-4d21-a816-273ba3762926)
 
 
 And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` with the last variable `html_page ` we created above. As you may know, this is a large and n
