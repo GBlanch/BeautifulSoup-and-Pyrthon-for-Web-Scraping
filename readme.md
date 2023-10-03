@@ -47,7 +47,7 @@ As you may certainly know, this output is rather large and not easy to read, and
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/79d99542-c5d6-4d21-a816-273ba3762926)
 
 
-And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` with the last variable `html_page ` we created above. 
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` and we will assign to it the last variable `html_page ` we assigned above. 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
