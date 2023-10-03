@@ -2,10 +2,14 @@
 
 ## Table of contents
 
++ [Introduction](#introduction)
++ [Before deploying any code](#before-deploying-any-code)
++ [Data fetching]()
++ [Automation through Azure Functions]
+
 ## Introduction
 
 The purpose of this repository is to showcase a basic web scraping case and their best practices.
-
 
 
 ## Before deploying any code
