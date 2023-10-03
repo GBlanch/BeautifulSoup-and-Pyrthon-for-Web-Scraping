@@ -65,17 +65,17 @@ To do this, we create an empty list `span_tag` and we run a for-loop to iterate 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
 
 
-Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. As we saw before, the  type of each string in this list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
+Please notice the omision of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
+
+Moving foward, and as we saw before, the type of each string in this list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
 
-And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` as the script reads:
+And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` within the function `to_numeric` as the script reads:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/d9cbaaba-776f-436b-a2d3-c9e2f245467c)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f78f536b-8097-4a10-b1a4-80bb18116353)
 
-
-For the former case, we can create a list in which we will exclude the 1st position of each string. This is:
 
 
 
