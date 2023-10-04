@@ -70,16 +70,17 @@ When highlighting and inspecting any element of the website, i.e. _USD price_ fo
 And so we can identify that for _this item_, its `tag` and `class` are `span` and `s-item__price` respectively. 
 These define the price in the HTML code, and so we can insert them as arguments into the `findAll()` function to track the price down. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3723ce3c-e43d-4f73-a270-3ac3dc298c62)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/98911b97-407b-4828-a092-481a89e544e2)
+
 
 We can also even isolate only the price value with the currency sign of a single observation as shown below. Also, looking into the type of a single element of the list, we confirm they are strings:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/78d8c04f-d8cb-4e97-b683-78b814277f00)
 
 
-But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
+But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just to one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
-To do this, we create an empty list `span_tag` and we run a for-loop to iterate over this list we are about to declare. All this is:
+To do this, we will declare the an empty list `price` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
 
