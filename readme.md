@@ -108,7 +108,8 @@ Finally we can parse this dataframe `df1` into a `csv` file and store it in the 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/705edb27-4a5f-4205-a89e-111c6d513868)
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f61a9c5e-1354-48b8-963e-42ddcc15f611)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/7c7a1d6d-1f3f-4ef8-9785-8a1710d2411c)
+
 
 
 
