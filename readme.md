@@ -70,7 +70,7 @@ When highlighting and inspecting any element of the website, i.e. _USD price_ fo
 And so we can identify that for _this item_, its `tag` and `class` are `span` and `s-item__price` respectively. 
 These define the price in the HTML code, and so we can insert them as arguments into the `findAll()` function to track the price down. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3723ce3c-e43d-4f73-a270-3ac3dc298c62)
 
 We can also even isolate only the price value with the currency sign of a single observation as shown below. Also, looking into the type of a single element of the list, we confirm they are strings:
 
