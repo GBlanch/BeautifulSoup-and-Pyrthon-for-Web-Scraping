@@ -83,7 +83,7 @@ We can also even isolate only the price value with the currency sign of a single
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1310a4ab-b566-4ad1-95a8-288b4db3d2fc)
 
-Regarding some of distinct type of `tags` and `classes` -and how to navigate through these in HTML page -, you can find other data manipulation variationos and methodes in my original `scraping script` [here]()
+Regarding some other types of `tags` and `classes` -and how to navigate through these in HTML page -, `you can find other variations and methodes` in my original `scraping script` `[here]()`
 
 
 [Back to Table of Contents](#table-of-contents)
