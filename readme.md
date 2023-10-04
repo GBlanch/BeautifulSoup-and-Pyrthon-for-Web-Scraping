@@ -33,20 +33,21 @@ There's much more information about Web Scaping that can be found in the  websit
 
 ## Good to code
 
-As usual, we first import the needed libraries we will be needing. These being: `BeautifulSoup` so that we can interact and handle the data within the html website file, and `urllib.request` in order to get the website html file into a `Python` variable. Of course we'll also need `Pandas` to create and handle our Dataframes.
+As usual, we first import the needed libraries we will be needing. 
+These happen to be: `BeautifulSoup` so that we can interact and handle the data within the `html file`, and `urllib.request` in order to get this `html file` into a `Python` variable `client`. Of course we'll also need `Pandas` to create and manipulate our Dataframes.
 
-And so we begin by defining the variable for the html file:
+And so we begin by defining the variable for the `html file` by passing its url address into a Python variable `url`:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/951df0c8-ef6e-4315-91fd-a5e8f3ea6cd4)
 
-Note that we can also assign a variable `key_word_search `to replace the content of key word `nkw` on the URL address. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
+Note that we can also assign a variable `key_word_search `to replace anytime we need the content of key word `nkw` on the url address we have just passed. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
 
-Next we load the `html file` into memory with the function `uReq` and we can also have a look at the content of this object:
+Next we load the `html file` into memory with the function `uReq`. We also can have a look at the content of this object:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/b8e7155f-f150-4f87-856a-363a3a32cbdb)
 
 
-As you may certainly know, this output is rather large and not easy to read, and here's where BeautifulSoup comes into action. Once the variable `html_page` is finally assigned, we will also close the client object:
+As you may certainly know, this output is rather large and not easy to read, and here's where `BeautifulSoup` comes into action. Once the variable `html_page` is finally assigned, we will also close the client object:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/79d99542-c5d6-4d21-a816-273ba3762926)
 
@@ -55,11 +56,11 @@ And so we have our data ready to be parsed with `BeautifulSoup`. We create a new
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
-When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define them:
+When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define each of them :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-Now that we know that `tag` and `class` are the names which define the price in the HTML code, we can insert them as arguments into the `findAll()` function. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
+And so we can identify that `span` is the `tag`a nd `class` are the names which define the price in the HTML code, we can insert them as arguments into the `findAll()` function. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
