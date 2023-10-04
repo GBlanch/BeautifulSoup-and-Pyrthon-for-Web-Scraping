@@ -63,11 +63,12 @@ Now that we have our soup object ready to be manipulated, we are finally ready t
 ## Inspecting the HTML page and finding patterns
 
 We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page is built.
-When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define each of them :
+When highlighting and inspecting any element of the website, i.e. _USD price_ for a _Hiking Pocket Compass_, we can see the `tag` and `class` that define each of them :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
 
-And so we can identify that `span` is the `tag`a nd `class` are the names which define the price in the HTML code, we can insert them as arguments into the `findAll()` function. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
+And so we can identify that for _this item_, its `tag` and `class` are `span` and `s-item__price` respectively. 
+These define the price in the HTML code, and so we can insert them as arguments into the `findAll()` function to track the price down. We can fetch therefore the values as a whole list - whose type is `bs4.ResultSet`- , as an interval, or even individually. This is to code:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a8cde13e-987e-4231-bde1-6fa0cc1bdfc9)
 
