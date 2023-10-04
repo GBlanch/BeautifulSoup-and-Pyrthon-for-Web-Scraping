@@ -6,6 +6,7 @@
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
 + [Inspecting the HTML page and finding patterns](#inspecting-the-html-page-and-finding-patterns)
++ [Basic data clening and dataframe extraction](#asic-data-cleaning-and-dataframe-extraction)
 
 ## Introduction
 
@@ -78,13 +79,16 @@ These define the price in the HTML code, and so we can insert them as arguments 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/98911b97-407b-4828-a092-481a89e544e2)
 
-Regarding the distinc type of `tags` and `classes`, you can find other variations and data manipulation in my `original script` [here]()
-
 We can also even isolate only the price value with the currency sign of a single observation as shown below with the `BeautifulSoup` method `.text`. Also, looking into the type of a single element of the list, we confirm they are strings:
-
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1310a4ab-b566-4ad1-95a8-288b4db3d2fc)
 
+Regarding some of distincy type of `tags` and `classes`, you can find other variations and data manipulation in my original `scraping script` [here]()
+
+
+[Back to Table of Contents](#table-of-contents)
+
+## Basic data clening and dataframe extraction
 
 But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just to one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
