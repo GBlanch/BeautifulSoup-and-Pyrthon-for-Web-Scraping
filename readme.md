@@ -26,7 +26,7 @@ And if we check `eBay`'s `robots.txt` file, we can verify that the access to thi
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/3a6c0cbf-9f1d-4323-ad33-5e0031b7e3d9)
 
 
-Last but not least, and since there are some server and performance costs for the website owners every time their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL request.
+Last but not least, and since there are some server and performance costs for the website owners every time their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL requests.
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
 
@@ -48,20 +48,21 @@ Next we load the `html file` into memory with the function `uReq` from the libra
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/35c9b713-cd09-4cba-8bfa-c1689472e055)
 
 
-As you may certainly know, this output (html page) is rather large and not easy to read, and here's where `BeautifulSoup` will come extremely handy. Once the variable `html_page` is finally assigned as a html file, we will also close the client object:
+As you may certainly know, this output (html page) is rather large and not easy to read, and here's where `BeautifulSoup` will come extremely handy. Once the variable `html_page` is finally read/assigned as a html file, we will also close the client object:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f11969e2-75e5-412d-a4d7-21f31b6e83e5)
 
 
 
-And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page_soup` and we will assign to it the last variable `html_page` which contais the html file as explained before. 
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page_soup` and we will assign to it the last variable `html_page` which contais the html file as explained before. This results as follows: 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
+Now that we have our soup object ready to be manipulated, we are finally ready to move onto the next stage.
 
 ## Inspecting the HTML page and finding patterns
 
-
+We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page is built.
 When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define each of them :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
