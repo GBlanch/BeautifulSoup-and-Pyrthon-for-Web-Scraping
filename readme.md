@@ -88,24 +88,25 @@ To do this, we will declare the an empty list `prices` and we will run it into a
 
 Please notice the omission  of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
 
-Moving foward, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
+Moving foward, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` from `Pandas `to attain this:
 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/234fae45-b34d-4abd-b7a7-0daefa0dc06b)
 
 
-And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` within the function `to_numeric` from `Pandas`, as the script reads below:
+And so Python complains about not being able to parse the non-numerical strings as shown in the Console output. That is why we are going to utilize the argument `coerce` within the mentioned function `to_numeric`, as the script reads below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f4085677-3651-4d2d-8a0a-8d0b4125fe79)
 
 
 We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df1` , we will remove these and we confirm they don't exist anymore. This is to code:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/e6fdebe5-3805-4499-81a0-2caf8e14941f)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1b582887-bed9-42fa-9f9f-102390793cea)
+
 
 Finally we can parse this dataframe `df1` into a `csv` file and store it in the local folder where this web scraping script is runing :
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a7a346aa-7e7d-407e-bae7-628fd2d7eac7)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/705edb27-4a5f-4205-a89e-111c6d513868)
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f61a9c5e-1354-48b8-963e-42ddcc15f611)
 
