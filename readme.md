@@ -1,4 +1,4 @@
-# BeautifulSoup and Python for Web Scraping
+# Python with BeautifulSoup for Web Scraping
 
 ## Table of contents
 
