@@ -111,7 +111,7 @@ We next get rid of the `NaN` values. We confirm there are 3 amongst the original
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1b582887-bed9-42fa-9f9f-102390793cea)
 
 
-Finally we can parse this dataframe `df1` into a `csv` file and store it in the local folder where this web scraping script is runing :
+Finally we can parse this dataframe `df1` into a `csv` file and store it in the local directory where this web scraping script is runing :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/705edb27-4a5f-4205-a89e-111c6d513868)
 
