@@ -88,9 +88,9 @@ Regarding some of distinct type of `tags` and `classes` -and how to navigate thr
 
 [Back to Table of Contents](#table-of-contents)
 
-## Basic data clening and dataframe extraction
+## Basic data cleaning and dataframe extraction
 
-But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just to one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
+Since we want to apply theses filtering and the rest of the cleaning procedures to the entire findings - not just to one single observation -, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
 To do this, we will declare the an empty list `prices` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
 
