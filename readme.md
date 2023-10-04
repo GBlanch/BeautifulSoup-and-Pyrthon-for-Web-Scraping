@@ -40,9 +40,9 @@ And so we also proceed by defining the variable for the `html file` by passing i
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/951df0c8-ef6e-4315-91fd-a5e8f3ea6cd4)
 
-Please notice that we can also assign a variable `key_word_search` to replace anytime we need the content of key word `nkw` on the URL address we have just passed. We have placed some curly brackets `{}` instead. This way our script shall be modified without having to access to any web browser or if we decide to automate other processes.
+Please notice that we can also assign a variable `key_word_search` to replace anytime we need the content of key word `nkw` on the URL address we have just passed. We have placed some curly brackets `{}` in its place. This way the target of our scraping script shall be modified without having to access to any web browser, or even if we just decide to automate other processes.
 
-Next we load the `html file` into memory with the function `uReq`. We also can have a look at the content of this object:
+Next we load the `html file` into memory with the function `uReq` from the library `urllib.request`. For that we will define the variable `client` which will conatin the http client object. We also can have a look at the content of this object:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/b8e7155f-f150-4f87-856a-363a3a32cbdb)
 
@@ -52,7 +52,7 @@ As you may certainly know, this output is rather large and not easy to read, and
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/79d99542-c5d6-4d21-a816-273ba3762926)
 
 
-And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page soup` and we will assign to it the last variable `html_page ` we assigned above. 
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page_soup` and we will assign to it the last variable `html_page ` which contais ths we assigned above. 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
