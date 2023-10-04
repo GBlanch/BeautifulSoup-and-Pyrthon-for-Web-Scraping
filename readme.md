@@ -5,7 +5,7 @@
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
-+ [Finding patterns and navigating the HTML page](#finding-patterns-and-navigating-the-html-page)
++ [Inspecting the HTML page and finding patterns](#inspecting-the-html-page-and-finding-patterns)
 
 ## Introduction
 
@@ -59,7 +59,7 @@ And so we have our data ready to be parsed with `BeautifulSoup`. We create a new
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
 
 
-## Finding patterns and navigating the HTML page
+## Inspecting the HTML page and finding patterns
 
 
 When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define each of them :
