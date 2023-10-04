@@ -11,7 +11,7 @@
 
 The purpose of this repository is to showcase a basic web scraping case and their best practices.
 
-Please beware that web scraping can become pernicious to their web owners and therefore **musn't be practiced without knowing which permissions we are granted by them beforehand.**
+Please beware that **web scraping** can become pernicious to their web owners and therefore **musn't be practiced without knowing which permissions we are granted by them beforehand.**
 
 
 ## Before deploying any code
@@ -64,7 +64,7 @@ Now that we have our soup object ready to be manipulated, we are finally ready t
 
 ## Inspecting the HTML page and finding patterns
 
-We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page is built.
+We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page was architected.
 When highlighting and inspecting any element of the website, i.e. _USD price_ for a _Hiking Pocket Compass_, we can see the `tag` and `class` that define each of them :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/2b3d8574-5efe-4b2e-a501-81c09d8a6d4d)
@@ -74,6 +74,7 @@ These define the price in the HTML code, and so we can insert them as arguments 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/98911b97-407b-4828-a092-481a89e544e2)
 
+Regarding the distinc type of `tags` and `classes`, you can find other variations and data manipulation in my `original script` [here]()
 
 We can also even isolate only the price value with the currency sign of a single observation as shown below with the `BeautifulSoup` method `.text`. Also, looking into the type of a single element of the list, we confirm they are strings:
 
