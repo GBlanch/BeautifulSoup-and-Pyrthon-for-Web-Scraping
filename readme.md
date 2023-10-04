@@ -73,14 +73,15 @@ These define the price in the HTML code, and so we can insert them as arguments 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/98911b97-407b-4828-a092-481a89e544e2)
 
 
-We can also even isolate only the price value with the currency sign of a single observation as shown below. Also, looking into the type of a single element of the list, we confirm they are strings:
+We can also even isolate only the price value with the currency sign of a single observation as shown below with the `BeautifulSoup` method `.text`. Also, looking into the type of a single element of the list, we confirm they are strings:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/78d8c04f-d8cb-4e97-b683-78b814277f00)
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1310a4ab-b566-4ad1-95a8-288b4db3d2fc)
 
 
 But we want to apply theses filters and the rest of the cleaning procedures to the entire findings, not just to one observation. Therefore, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
-To do this, we will declare the an empty list `price` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
+To do this, we will declare the an empty list `prices` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
 
@@ -90,11 +91,13 @@ Please notice the omission  of the 1st position -`$` symbol- of each string in t
 Moving foward, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` to attain this:
 
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/afb4f755-0f3b-4d4a-bb1e-a5a2269f569b)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/234fae45-b34d-4abd-b7a7-0daefa0dc06b)
 
-And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` within the function `to_numeric` as the script reads below:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f78f536b-8097-4a10-b1a4-80bb18116353)
+And so Python complains about not being able to parse the non-numerical values as shown in the Console output. That is why we are going to utilize the argument `coerce` within the function `to_numeric` from `Pandas`, as the script reads below:
+
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f4085677-3651-4d2d-8a0a-8d0b4125fe79)
+
 
 We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df1` , we will remove these and we confirm they don't exist anymore. This is to code:
 
