@@ -34,7 +34,8 @@ There's much more information about Web Scaping that can be found in the  websit
 ## Good to code
 
 As usual, we first import the needed libraries we will be needing. 
-These happen to be: `BeautifulSoup` so that we can interact and handle the data within the `html file`, and `urllib.request` in order to get this `html file` into a `Python` variable named `client`. Of course we will also need `Pandas` to create and manipulate our Dataframes as a matter of course.
+
+These happen to be: `BeautifulSoup` so that we can interact and handle the data within the `html file`, and `urllib.request` in order to get this `html file` into a `Python` variable named `client`. And not unexpectedly, we also will need `Pandas` to create and manipulate our Dataframes as a matter of course.
 
 And so we also proceed by defining the variable for the `html file` by passing its URL address into a Python variable `url`. This is to code:
 
