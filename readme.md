@@ -45,7 +45,7 @@ Please notice that we can also assign a variable `key_word_search` to replace an
 
 Next we load the `html file` into memory with the function `uReq` from the library `urllib.request`. For that we will define the variable `client` which will conatin the http client object. We also can have a look at the content of this object, as follows below :
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/b8e7155f-f150-4f87-856a-363a3a32cbdb)
+![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/a889f092-ee44-42ff-ac39-481d7c1e3d0e)
 
 
 As you may certainly know, this output is rather large and not easy to read, and here's where `BeautifulSoup` comes into action. Once the variable `html_page` is finally assigned, we will also close the client object:
