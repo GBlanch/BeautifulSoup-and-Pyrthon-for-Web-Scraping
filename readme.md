@@ -32,6 +32,7 @@ Last but not least, and since there are some server and performance costs for th
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
 
+[Back to Table of Contents](#table-of-contents)
 
 ## Good to code
 
@@ -113,6 +114,8 @@ Finally we can parse this dataframe `df1` into a `csv` file and store it in the 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/7c7a1d6d-1f3f-4ef8-9785-8a1710d2411c)
 
+
+[Back to Table of Contents](#table-of-contents)
 
 
 
