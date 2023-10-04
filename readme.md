@@ -63,6 +63,9 @@ And so we have our data ready to be parsed with `BeautifulSoup`. We create a new
 
 Now that we have our soup object ready to be manipulated, we are finally ready to move onto the next stage.
 
+[Back to Table of Contents](#table-of-contents)
+
+
 ## Inspecting the HTML page and finding patterns
 
 We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page was architected.
