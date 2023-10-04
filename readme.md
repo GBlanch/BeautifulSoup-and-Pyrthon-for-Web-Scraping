@@ -83,12 +83,12 @@ We can also even isolate only the price value with the currency sign of a single
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1310a4ab-b566-4ad1-95a8-288b4db3d2fc)
 
-Regarding some other types of `tags` and `classes` -and how to navigate through these in HTML page -, `you can find other variations and methodes` in my original `scraping script` `[here]()`
-
+NB: In this markdown file, I've just showcased a portion of the entire workload of data inspection, cleaning and manipulation for this project. `You can find the rest of this work in my original scraping script` `[here]()`. Likewise, in this script you can find more coding in regards to other types of `tags` and `classes`, and how to navigate through these in a HTML page.
 
 [Back to Table of Contents](#table-of-contents)
 
 ## Basic data cleaning and dataframe extraction
+
 
 Since we want to apply theses filtering and the rest of the cleaning procedures to the entire findings - not just to one single observation -, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
