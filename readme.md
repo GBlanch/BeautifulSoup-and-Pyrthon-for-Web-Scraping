@@ -5,7 +5,7 @@
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
-+ [Patterns and Coding]
++ [Finding patterns and navigating the HTML page](#finding-patterns-and-navigating-the-html-page)
 
 ## Introduction
 
@@ -54,9 +54,13 @@ As you may certainly know, this output (html page) is rather large and not easy 
 
 
 
-And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page_soup` and we will assign to it the last variable `html_page` which contais the html file as said before. 
+And so we have our data ready to be parsed with `BeautifulSoup`. We create a new variable `page_soup` and we will assign to it the last variable `html_page` which contais the html file as explained before. 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/51cf6a9a-764c-47af-84e1-81792ba8b26e)
+
+
+## Finding patterns and navigating the HTML page
+
 
 When highlighting and inspecting any element of the website, we can see the `tag` and `class` that define each of them :
 
