@@ -6,7 +6,7 @@
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
 + [Inspecting the HTML page and finding patterns](#inspecting-the-html-page-and-finding-patterns)
-+ [Basic data clening and dataframe extraction](#basic-data-cleaning-and-dataframe-extraction)
++ [Basic data cleaning and dataframe extraction](#basic-data-cleaning-and-dataframe-extraction)
 
 ## Introduction
 
