@@ -72,7 +72,8 @@ And so we have our data ready to be parsed with `BeautifulSoup`. We create a new
 Now that we have our soup object ready to be manipulated, we are finally ready to move onto the next stage.
 
 [Back to Table of Contents](#table-of-contents)
-
+&nbsp;    
+&nbsp;  
 
 ## Inspecting the HTML page and noticing patterns
 
@@ -95,7 +96,8 @@ NB: In this markdown file, I've just showcased a portion of the entire workload 
 
 
 [Back to Table of Contents](#table-of-contents)
-
+&nbsp;    
+&nbsp;  
 
 
 
@@ -156,7 +158,8 @@ We will finally store this data into a csv file. Before we do so, we double chec
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/9c720db0-65f4-4d2a-bce5-89ebef5e8dca)
 
 In regards of how to mention dataframes and their csv files, there is a specific note at the beginning of the script I mentioned in this last chapter `Epilogue`, which follows below.
-
+&nbsp;    
+&nbsp;  
 
 ## Epilogue
 
