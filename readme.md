@@ -113,22 +113,22 @@ And so Python complains about not being able to parse the non-numerical strings 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f4085677-3651-4d2d-8a0a-8d0b4125fe79)
 
 
-We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df_hike_gear` , we will remove these and we confirm they don't exist anymore. This is to code:
+We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df_hike_gear_p` , we will remove these and we confirm they don't exist anymore. This is to code:
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/afd4a9ee-cf64-49ff-b60e-d93eaaf985d1)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/6df28eed-1ece-46fe-9826-c5a2e0494117)
+
 
 We will perform some quick data manipulation in order to give the future csv file an `index` column, as well as a column name for the data to be extracted. Both of these operations result as:
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/5459c588-bc22-4de2-b273-06e450e4331b)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/e6e6fcd8-a3f8-4fec-b96e-fd90eff9cd10)
 
+Finally, and before we store this data into a csv file, we double check there are no null values after ssome data manipulation. After this, we can parse this dataframe `df_hike_gear_p` into a `csv` file with the method `to_csv` .This new csv file `df_hg_price` will be stored in the local directory where this web scraping script is runing:
 
-Finally we can parse this dataframe `df_hike_gear` into a `csv` file with the method `to_csv` .This new csv file `df_hiking_gear_price` will be stored in the local directory where this web scraping script is runing:
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/dd47746b-e322-47aa-9dc4-bf884e66d256)
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1de64499-09bf-4a17-b4aa-12adeceb20da)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/9c720db0-65f4-4d2a-bce5-89ebef5e8dca)
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/de915c19-41f1-48d8-8a14-cb619c205508)
-
-
+In regards of how to mention dataframes and their csv files, there is a specific note at the end of the script I mentioned in the last chapter which follows below.
 
 ## Epilogue
 
