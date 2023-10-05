@@ -36,10 +36,10 @@ Last but not least, and since there are some server and performance costs for th
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
 &nbsp;  
-&nbsp;
-[Back to Table of Contents](#table-of-contents)
 &nbsp;  
-&nbsp;
+[Back to Table of Contents](#table-of-contents)
+&nbsp;    
+&nbsp;  
 
 ## Good to code
 
