@@ -5,7 +5,7 @@
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
-+ [Inspecting the HTML page and finding patterns](#inspecting-the-html-page-and-finding-patterns)
++ [Inspecting the HTML page and noticing patterns](#inspecting-the-html-page-and-noticing-patterns)
 + [Basic data cleaning and dataframe extraction](#basic-data-cleaning-and-dataframe-extraction)
 
 ## Introduction
@@ -67,7 +67,7 @@ Now that we have our soup object ready to be manipulated, we are finally ready t
 [Back to Table of Contents](#table-of-contents)
 
 
-## Inspecting the HTML page and finding patterns
+## Inspecting the HTML page and noticing patterns
 
 We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page was architected.
 When highlighting and inspecting any element of the website, i.e. _USD price_ for a _Hiking Pocket Compass_, we can see the `tag` and `class` that define each of them :
