@@ -85,7 +85,7 @@ We can also even isolate only the price value with the currency sign of a single
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1310a4ab-b566-4ad1-95a8-288b4db3d2fc)
 
-NB: In this markdown file, I've just showcased a portion of the entire workload of HTML code inspection ,data manipulation and cleaning for this project. `You can find the rest of this work in my original scraping script` `[here]()`. Likewise, in this script you can find more coding in regards to other types of `tags` and `classes`, and how to navigate through these in a HTML page.
+NB: In this markdown file, I've just showcased a portion of the entire workload of HTML code inspection ,data manipulation and cleaning for this project. `You can find the rest of this work in my original scraping script` [`here`](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb). Likewise, in this script you can find more coding in regards to other types of `tags` and `classes`, and how to navigate through these in a HTML page.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -148,7 +148,7 @@ In regards of how to mention dataframes and their csv files, there is a specific
 
 ## Epilogue
 
-To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated in order to create part of this repository. 
+To check out more details and operations performed during this brief project, you can have a look [`here`](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb) to the entire `script` I elaborated in order to create part of this repository. 
 
 Feel also free to browse [`this`]() github readme file to see other `web scraping works` that I'm currently developing. 
 
