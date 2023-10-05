@@ -1,8 +1,6 @@
 # Python with BeautifulSoup for Web Scraping
 
 ## Table of contents
-&nbsp;    
-&nbsp;
 
 + [Introduction](#introduction)
 + [Before deploying any code](#before-deploying-any-code)
