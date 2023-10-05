@@ -123,6 +123,18 @@ We will perform some quick data manipulation in order to give the future csv fil
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/e6e6fcd8-a3f8-4fec-b96e-fd90eff9cd10)
 
+Some other operations of data manipulation can be shown below. I.e., to get the shipping price 
+
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1df7183b-bb33-411a-950a-96c946f34089)
+
+The word `shipping` as well as the `$` symbol is appearing. Hence we need to apply the `append` method as well as the `text` function, respectively. Hence, these result in:
+
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/7a32d6ee-e58b-4e2c-ab28-484d2750d726)
+
+
+
+or the country of provenance of each item:
+
 Finally, and before we store this data into a csv file, we double check there are no null values after ssome data manipulation. After this, we can parse this dataframe `df_hike_gear_p` into a `csv` file with the method `to_csv` .This new csv file `df_hg_price` will be stored in the local directory where this web scraping script is runing:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/dd47746b-e322-47aa-9dc4-bf884e66d256)
