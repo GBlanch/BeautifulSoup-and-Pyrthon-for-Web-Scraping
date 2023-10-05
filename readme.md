@@ -40,11 +40,12 @@ There's much more information about Web Scaping that can be found in the  websit
 
 As usual, we first import the needed libraries we will be needing. 
 
-These happen to be: `BeautifulSoup` so that we can interact and handle the data within the `html file`, and `urllib.request` in order to get this `html file` into a `Python` variable named `client`. And not unexpectedly, we also will need `Pandas` to create and manipulate our Dataframes as a matter of course.
+These happen to be: `BeautifulSoup` to interact and handle the data within the `html file`, `urllib.request` in order to get this `html file` into a `Python` variable named `client`, and not unexpectedly, we also will utilize `Pandas` and `NumPy` to create and manipulate our Dataframes as a matter of course.
 
 And so we also proceed by defining the variable for the `html file` by passing its URL address into a Python variable `url`. This is to code:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/951df0c8-ef6e-4315-91fd-a5e8f3ea6cd4)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/c1d25f0c-2979-4d2d-8a96-22cd53b0c94d)
+
 
 Please notice that we can also assign a variable `key_word_search` to replace anytime we need the content of key word `nkw` on the URL address we have just passed. We have placed some curly brackets `{}` in its place. This way the target of our scraping script shall be modified without having to access to any web browser, or even if we just decide to automate other processes.
 
