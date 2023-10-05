@@ -35,8 +35,8 @@ And if we check `eBay`'s `robots.txt` file, we can verify that the access to thi
 Last but not least, and since there are some server and performance costs for the website owners every time their data gets fetched, it is a nice and considered practice to avoid sending a big amount of URL requests.
 
 There's much more information about Web Scaping that can be found in the  website [ZenRows Blog - Web Scraping Best Practices and Tools 2023](https://www.zenrows.com/blog/web-scraping-best-practices#respect-robots-txt-sitemap)
-&nbsp;  
-&nbsp;  
+&nbsp;    
+&nbsp;    
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
 &nbsp;  
