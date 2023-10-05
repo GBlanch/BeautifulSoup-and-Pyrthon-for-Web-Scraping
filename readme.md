@@ -113,16 +113,20 @@ And so Python complains about not being able to parse the non-numerical strings 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f4085677-3651-4d2d-8a0a-8d0b4125fe79)
 
 
-We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df1` , we will remove these and we confirm they don't exist anymore. This is to code:
+We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df_hike_gear` , we will remove these and we confirm they don't exist anymore. This is to code:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1b582887-bed9-42fa-9f9f-102390793cea)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/afd4a9ee-cf64-49ff-b60e-d93eaaf985d1)
+
+We will perform some quick data manipulation in order to give the future csv file an `index` column, as well as a column name for the data to be extracted. Both of these operations result as:
+
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/b6f71c58-deb5-47f3-83cb-10dda4cf2893)
 
 
-Finally we can parse this dataframe `df1` into a `csv` file with the method `to_csv` .This new csv file `df1_hiking_gear` will be stored in the local directory where this web scraping script is runing:
+Finally we can parse this dataframe `df_hike_gear` into a `csv` file with the method `to_csv` .This new csv file `df_hiking_gear_price` will be stored in the local directory where this web scraping script is runing:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/705edb27-4a5f-4205-a89e-111c6d513868)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1de64499-09bf-4a17-b4aa-12adeceb20da)
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/7c7a1d6d-1f3f-4ef8-9785-8a1710d2411c)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/d7cce9d6-0dc9-433d-b7a0-4ae9c4ad78a4)
 
 
 ## Epilogue
