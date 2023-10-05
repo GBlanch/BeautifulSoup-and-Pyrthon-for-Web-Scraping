@@ -13,7 +13,7 @@
 
 The purpose of this repository is to showcase a basic web scraping case and their best practices.
 
-Please beware that **web scraping** can become pernicious to their web owners and therefore **musn't be practiced without knowing which permissions we are granted by them beforehand.**
+Please beware that **web scraping** can become pernicious to their web owners and therefore **mustn’t be practiced without knowing which permissions we are granted by them beforehand.**
 
 
 ## Before deploying any code
@@ -49,7 +49,7 @@ And so we also proceed by defining the variable for the `html file` by passing i
 
 Please notice that we can also assign a variable `key_word_search` to replace anytime we need the content of key word `nkw` on the URL address we have just passed. We have placed some curly brackets `{}` in its place. This way the target of our scraping script shall be modified without having to access to any web browser, or even if we just decide to automate other processes.
 
-Next we load the `html file` into memory with the function `uReq` from the library `urllib.request`. For that we will define the variable `client` which will conatin the http client object. We also can have a look at the content of this object, as follows below :
+Next we load the `html file` into memory with the function `uReq` from the library `urllib.request`. For that we will define the variable `client` which will contain the http client object. We also can have a look at the content of this object, as follows below :
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/35c9b713-cd09-4cba-8bfa-c1689472e055)
 
@@ -94,7 +94,7 @@ NB: In this markdown file, I've just showcased a portion of the entire workload 
 
 Since we want to apply theses filtering and the rest of the cleaning procedures to the entire findings - not just to one single observation -, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
 
-To do this, we will declare the an empty list `prices` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
+To do this, we will declare the an empty list `prices` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, except for their 1st position. All this is:
 
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/79451d53-b920-43a3-a726-e31f8326c398)
@@ -105,7 +105,7 @@ Please notice the omission  of the 1st position -`$` symbol- of each string in t
 
 Taking a short brake from this example for the list `prices`, we look briefly just into another example of some other operations of data manipulation. 
 
-I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that define them in the HTML page (follwing image), we can code as follows in the second image below:
+I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that define them in the HTML page ( following image ), we can code as follows in the second image below:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/605ee04b-b5ee-45e8-ad88-e011fc1409e7)
 
@@ -138,7 +138,7 @@ We will perform some quick data manipulation in order to give the future csv fil
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/98133f7f-5f7c-4113-a579-ece3b1626750)
 
 
-We will finally store this data into a csv file. Before we do so, we double check there are no null values after ssome data manipulation. After this, we can parse this dataframe `df_hike_gear_p` into a `csv` file with the method `to_csv` .This new csv file `df_hg_price` will be stored in the local directory where this web scraping script is runing:
+We will finally store this data into a csv file. Before we do so, we double check there are no null values after some data manipulation. After this, we can parse this dataframe `df_hike_gear_p` into a `csv` file with the method `to_csv` .This new csv file `df_hg_price` will be stored in the local directory where this web scraping script is running:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/dd47746b-e322-47aa-9dc4-bf884e66d256)
 
@@ -148,7 +148,7 @@ In regards of how to mention dataframes and their csv files, there is a specific
 
 ## Epilogue
 
-To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated in order to create part of this repo. 
+To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated in order to create part of this repository. 
 
 Feel also free to browse [`this`]() github readme file to see other `web scraping works` that I'm currently developing. 
 
