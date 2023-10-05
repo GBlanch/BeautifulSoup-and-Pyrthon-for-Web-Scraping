@@ -94,7 +94,8 @@ Since we want to apply theses filtering and the rest of the cleaning procedures 
 
 To do this, we will declare the an empty list `prices` and we will run it into a for-loop. In this iteration, we will append the whole value of each `span_tag` string, excep for their 1st possition. All this is:
 
-![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/9dca4fc1-5682-4b20-ae27-bb60ab67f4fb)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/0afdf20a-60e2-4e22-a1e7-6b460954c8a4)
+
 
 
 Please notice the omission  of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
