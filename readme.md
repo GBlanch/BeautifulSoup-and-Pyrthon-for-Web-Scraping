@@ -157,7 +157,7 @@ We will finally store this data into a csv file. Before we do so, we double chec
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/9c720db0-65f4-4d2a-bce5-89ebef5e8dca)
 
-In regards of how to mention dataframes and their csv files, there is a specific note at the beginning of the script I mentioned in this last chapter `Epilogue`, which follows below. You can also see all the [`csv outputs` here].(https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/tree/main/1.ebay/csv%20outputs)
+In regards of how to mention dataframes and their csv files, there is a specific note at the beginning of the script I mentioned in this last chapter `Epilogue`, which follows below. You can also see all the `csv outputs` [here](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/tree/main/1.ebay/csv%20outputs).
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
