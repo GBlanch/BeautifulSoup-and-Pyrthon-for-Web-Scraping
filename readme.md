@@ -24,11 +24,8 @@ Prior to retrieving any data from any website, we must know whether or not that 
 
 Another way to acknowledge the legitimacy of our web scaping practices is to check whether or not the web directory we’re trying to access is permitted to be scraped. We can check this by adding `robots.txt` at the end of the root directory of their website. 
 For instance, in this case it is:
-&nbsp;    
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/ac71c1bb-ce67-4713-bd88-a16a01916461)
-
-&nbsp;   
 
 And if we check `eBay`'s `robots.txt` file, we can verify that the access to this directory is allowed, as shown below:
 
