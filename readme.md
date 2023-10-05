@@ -103,11 +103,11 @@ To do this, we will declare the an empty list `prices` and we will run it into a
 
 Please notice the omission  of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
 
-Another example of some other operations of data manipulation can be shown below. I.e., to get the `shipping price` of the same website:
+Another example of some other operations of data manipulation can be shown below. I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that defines them in the HTML page, we can code as follows :
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1df7183b-bb33-411a-950a-96c946f34089)
 
-The word `shipping` as well as the `$` symbol is appearing. Hence we need to apply the `append` method as well as the `text` function, respectively. Hence, these result in:
+The word `shipping` as well as the `$` symbol is appearing in the result of the list. Hence we need to apply the `append` method as well as the `text` function, respectively. Therefore, these result in:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/7a32d6ee-e58b-4e2c-ab28-484d2750d726)
 
