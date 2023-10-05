@@ -129,8 +129,7 @@ And so Python complains about not being able to parse the non-numerical strings 
 
 We next get rid of the `NaN` values. We confirm there are 3 amongst the original dataframe `df`, and after having declared a new dataframe `df_hike_gear_p` , we will remove these and we confirm they don't exist anymore. This is to code:
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/6df28eed-1ece-46fe-9826-c5a2e0494117)
-
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/d7638311-c448-489c-9e09-2575a94e31a3)
 
 We will perform some quick data manipulation in order to give the future csv file an `index` column, as well as a column name for the data to be extracted. Both of these operations result as:
 
