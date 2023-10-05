@@ -148,7 +148,7 @@ In regards of how to mention dataframes and their csv files, there is a specific
 
 To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated in order to create part of this repo. 
 
-Feel also free to browse [`this`]() github markdown file to see other `web scraping works` that I'm currently developing. 
+Feel also free to browse [`this`]() github readme file to see other `web scraping works` that I'm currently developing. 
 
 Thanks for reading this!
 
