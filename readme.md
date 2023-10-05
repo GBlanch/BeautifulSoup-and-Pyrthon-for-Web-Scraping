@@ -103,7 +103,7 @@ To do this, we will declare the an empty list `prices` and we will run it into a
 
 Please notice the omission  of the 1st position -`$` symbol- of each string in the for-loop by means of the indexing `[1:]`. We could have used the `.strip()` method to achieve this end as well. 
 
-Taking a short brake from this example, we look briefly just into another example of some other operations of data manipulation. 
+Taking a short brake from this example for the list `prices`, we look briefly just into another example of some other operations of data manipulation. 
 
 I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that define them in the HTML page (follwing image), we can code as follows in the second image below:
 
@@ -112,9 +112,11 @@ I.e., to get the `shipping price` of the same website, and after having identifi
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1df7183b-bb33-411a-950a-96c946f34089)
 
-The word `shipping` as well as the `$` symbol is appearing in the result of the list `shipprice`. Hence we need to apply the `text` and `replace` function, respectively. This reads as follows:
+The word `shipping` as well as the `$` symbol is appearing in the result of the list `shipprice`. Hence we need to apply the `text` and `replace` functions, respectively. This reads as follows:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/7a32d6ee-e58b-4e2c-ab28-484d2750d726)
+
+And so we have obtained solely the value of the price without any other irrelevant data.
 
 Having mentioned this other case and going back to our list `prices` - and as we saw before -, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` from `Pandas `to attain this:
 
