@@ -7,6 +7,7 @@
 + [Good to code](#good-to-code)
 + [Inspecting the HTML page and noticing patterns](#inspecting-the-html-page-and-noticing-patterns)
 + [Basic data cleaning and dataframe extraction](#basic-data-cleaning-and-dataframe-extraction)
++ [Epilogue](#epilogue)
 
 ## Introduction
 
@@ -123,7 +124,12 @@ Finally we can parse this dataframe `df1` into a `csv` file with the method `to_
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/7c7a1d6d-1f3f-4ef8-9785-8a1710d2411c)
 
-As an epilogue to this narration, to check out more details and operations performed during this brief project, you can check [`here`]() the entire `python script` I elaborated to create part of this repo. Feel also free to browse [`this`]() github directory to see other Web Scraping works that I'm currently elaborating. 
+
+## Epilogue
+
+To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated to create part of this repo. 
+
+Feel also free to browse [`this`]() github directory to see other Web Scraping works that I'm currently elaborating. 
 
 Thanks for reading this!
 
