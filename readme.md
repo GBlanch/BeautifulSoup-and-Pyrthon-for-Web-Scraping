@@ -117,12 +117,15 @@ We next get rid of the `NaN` values. We confirm there are 3 amongst the original
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/1b582887-bed9-42fa-9f9f-102390793cea)
 
 
-Finally we can parse this dataframe `df1` into a `csv` file and store it in the local directory where this web scraping script is runing :
+Finally we can parse this dataframe `df1` into a `csv` file with the method `to_csv` .This new csv file `df1_hiking_gear` will be stored in the local directory where this web scraping script is runing:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/705edb27-4a5f-4205-a89e-111c6d513868)
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/7c7a1d6d-1f3f-4ef8-9785-8a1710d2411c)
 
+As an epilogue to this narration, to check out more details and operations performed during this brief project, you can check [`here`]() the entire `python script` I elaborated to create part of this repo. Feel also free to browse [`this`]() github directory to see other Web Scraping works that I'm currently elaborating. 
+
+Thanks for reading this!
 
 [Back to Table of Contents](#table-of-contents)
 
