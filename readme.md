@@ -126,7 +126,8 @@ Finally we can parse this dataframe `df_hike_gear` into a `csv` file with the me
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/1de64499-09bf-4a17-b4aa-12adeceb20da)
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/d7cce9d6-0dc9-433d-b7a0-4ae9c4ad78a4)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/de915c19-41f1-48d8-8a14-cb619c205508)
+
 
 
 ## Epilogue
