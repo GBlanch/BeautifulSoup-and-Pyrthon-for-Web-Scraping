@@ -127,9 +127,9 @@ Finally we can parse this dataframe `df1` into a `csv` file with the method `to_
 
 ## Epilogue
 
-To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated to create part of this repo. 
+To check out more details and operations performed during this brief project, you can have a look [`here`]() to the entire `python script` I elaborated in order to create part of this repo. 
 
-Feel also free to browse [`this`]() github directory to see other Web Scraping works that I'm currently elaborating. 
+Feel also free to browse [`this`]() github directory to see other Web Scraping works that I'm currently developing. 
 
 Thanks for reading this!
 
