@@ -6,7 +6,7 @@
 + [Before deploying any code](#before-deploying-any-code)
 + [Good to code](#good-to-code)
 + [Inspecting the HTML page and noticing patterns](#inspecting-the-html-page-and-noticing-patterns)
-+ [Basic data cleaning and dataframe extraction](#basic-data-cleaning-and-dataframe-extraction)
++ [Basic data cleaning and dataframes extraction](#basic-data-cleaning-and-dataframes-extraction)
 + [Epilogue](#epilogue)
 
 ## Introduction
@@ -88,7 +88,7 @@ NB: In this markdown file, I've just showcased a portion of the entire workload 
 
 [Back to Table of Contents](#table-of-contents)
 
-## Basic data cleaning and dataframe extraction
+## Basic data cleaning and dataframes extraction
 
 
 Since we want to apply theses filtering and the rest of the cleaning procedures to the entire findings - not just to one single observation -, we will store the whole list in a variable named `span_tag` so that we can perform the same operations to them all. 
