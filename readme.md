@@ -105,7 +105,7 @@ Please notice the omission  of the 1st position -`$` symbol- of each string in t
 
 Taking a parenthesis from this example, we look briefly just into another example of some other operations of data manipulation. 
 
-I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that defines them in the HTML page (follwing image), we can code as follows in the second image below:
+I.e., to get the `shipping price` of the same website, and after having identified the `tag` and `class` that define them in the HTML page (follwing image), we can code as follows in the second image below:
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/605ee04b-b5ee-45e8-ad88-e011fc1409e7)
 
@@ -116,7 +116,7 @@ The word `shipping` as well as the `$` symbol is appearing in the result of the 
 
 ![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/7a32d6ee-e58b-4e2c-ab28-484d2750d726)
 
-Having mentioned this other case for the same website and going back to our list `prices`, and as we saw before, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` from `Pandas `to attain this:
+Having mentioned this other case and going back to our list `prices` - and as we saw before -, the type of each element within the list is still a string, therefore we ought to cast them into a numeric value. We will utilize the function `to_numeric` from `Pandas `to attain this:
 
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/234fae45-b34d-4abd-b7a7-0daefa0dc06b)
