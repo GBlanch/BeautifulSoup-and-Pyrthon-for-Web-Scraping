@@ -71,6 +71,7 @@ Now that we have our soup object ready to be manipulated, we are finally ready t
 
 ## Inspecting the HTML page and noticing patterns
 
+
 We open `Google Inspect` (Ctrl + Shift + C) to start knowing more about how the html page was architected.
 When highlighting and inspecting any element of the website, i.e. _USD price_ for a _Hiking Pocket Compass_, we can see the `tag` and `class` that define each of them :
 
@@ -87,7 +88,12 @@ We can also even isolate only the price value with the currency sign of a single
 
 NB: In this markdown file, I've just showcased a portion of the entire workload of HTML code inspection ,data manipulation and cleaning for this project. You can `find the rest of this work` in my original [`scraping script here`](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb). Likewise, in this script you can find more coding in regards to other types of `tags` and `classes`, and how to navigate through these in a HTML page.
 
+
 [Back to Table of Contents](#table-of-contents)
+
+
+
+
 
 ## Basic data cleaning and dataframes extraction
 
@@ -146,7 +152,9 @@ We will finally store this data into a csv file. Before we do so, we double chec
 
 In regards of how to mention dataframes and their csv files, there is a specific note at the beginning of the script I mentioned in this last chapter `Epilogue`, which follows below.
 
+
 ## Epilogue
+
 
 To check out more details and operations performed during this brief project, you can have a look [`here`](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb) to the entire `script` I elaborated in order to create part of this repository. 
 
