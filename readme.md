@@ -119,7 +119,7 @@ We next get rid of the `NaN` values. We confirm there are 3 amongst the original
 
 We will perform some quick data manipulation in order to give the future csv file an `index` column, as well as a column name for the data to be extracted. Both of these operations result as:
 
-![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/b6f71c58-deb5-47f3-83cb-10dda4cf2893)
+![image](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/assets/136500426/5459c588-bc22-4de2-b273-06e450e4331b)
 
 
 Finally we can parse this dataframe `df_hike_gear` into a `csv` file with the method `to_csv` .This new csv file `df_hiking_gear_price` will be stored in the local directory where this web scraping script is runing:
