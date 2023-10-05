@@ -10,7 +10,7 @@
 + [Epilogue](#epilogue)
 
 ## Introduction
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 The purpose of this repository is to showcase a basic web scraping case and their best practices.
 
 Please beware that **web scraping** can become pernicious to their web owners and therefore **mustn’t be practiced without knowing which permissions we are granted by them beforehand.**
