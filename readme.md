@@ -10,13 +10,14 @@
 + [Epilogue](#epilogue)
 
 ## Introduction
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 The purpose of this repository is to showcase a basic web scraping case and their best practices.
 
 Please beware that **web scraping** can become pernicious to their web owners and therefore **mustn’t be practiced without knowing which permissions we are granted by them beforehand.**
 
 
 ## Before deploying any code
+
 
 Prior to retrieving any data from any website, we must know whether or not that website allows to do so. Under the `terms and conditions of service` of the website/service of most websites, it is normally specified whether they allow web scraping or not. 
 
