@@ -1,5 +1,4 @@
 # Python with BeautifulSoup for Web Scraping
-&nbsp;    
 &nbsp;  
 ## Table of contents
 
