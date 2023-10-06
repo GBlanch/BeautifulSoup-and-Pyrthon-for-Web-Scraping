@@ -9,7 +9,8 @@
 + [Inspecting the HTML page and noticing patterns](#inspecting-the-html-page-and-noticing-patterns)
 + [Basic data cleaning and dataframes extraction](#basic-data-cleaning-and-dataframes-extraction)
 + [Epilogue](#epilogue)
-
+&nbsp;    
+&nbsp;  
 ## Introduction
 
 The purpose of this repository is to showcase a basic web scraping example and their best practices.
