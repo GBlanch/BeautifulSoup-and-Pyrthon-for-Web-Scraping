@@ -12,7 +12,7 @@
 &nbsp;  
 ## Introduction
 
-The purpose of this repository is to showcase a basic web scraping example and their best practices.
+The purpose of this repository is to showcase a basic web scraping example and some of its best/preferable practices.
 
 Please beware that **web scraping** can become pernicious to their web owners and therefore **mustn’t be practiced without knowing which permissions we are granted by them beforehand.**
 &nbsp;  
