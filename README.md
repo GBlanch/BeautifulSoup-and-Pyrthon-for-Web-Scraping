@@ -1,8 +1,12 @@
 # Python with BeautifulSoup for Web Scraping
+## Foreword
+
+See the IDE script of this repo [here](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb)
+
+Feel also free to browse [this repo](https://github.com/GBlanch/Web-scraping/blob/main/1.List%20of%20best-selling%20books/web_scraping_04AUG2023.ipynb) to see other **web scraping works** that I developed. 
 
 &nbsp;  
 &nbsp;    
-See the IDE script [here](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb)
 ## Table of contents
 
 + [Introduction](#introduction)
@@ -172,7 +176,7 @@ In regards of how to mention dataframes and their csv files, there is a specific
 
 To check out more details and operations performed during this brief project, you can have a look [`here`](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb) to the entire `script` I elaborated in order to create part of this repository. 
 
-Feel also free to browse [`this repository`](https://github.com/GBlanch/Web-scraping/blob/main/1.List%20of%20best-selling%20books/web_scraping_04AUG2023.ipynb) to see other **`web scraping works`** that I'm currently developing. 
+Feel also free to browse [`this repository`](https://github.com/GBlanch/Web-scraping/blob/main/1.List%20of%20best-selling%20books/web_scraping_04AUG2023.ipynb) to see other **`web scraping works`** that I developed. 
 
 Thanks for reading this!
 
