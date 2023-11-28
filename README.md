@@ -138,7 +138,7 @@ Having mentioned this other case and going back to our list `prices` - and as we
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/234fae45-b34d-4abd-b7a7-0daefa0dc06b)
 
 
-And so Python complains about not being able to parse the non-numerical strings as shown in the Console output. That is why we are going to utilize the argument `coerce` within the mentioned function `to_numeric`, as the script reads below:
+And so the Kernel complains about not being able to parse the non-numerical strings as shown in the Console output. That is why we are going to utilize the argument `coerce` within the mentioned function `to_numeric`, as the script reads below:
 
 ![image](https://github.com/GBlanch/BeautifulSoup-and-Python-for-Web-Scraping/assets/136500426/f4085677-3651-4d2d-8a0a-8d0b4125fe79)
 
