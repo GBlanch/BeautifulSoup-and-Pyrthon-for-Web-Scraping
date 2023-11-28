@@ -1,5 +1,8 @@
 # Python with BeautifulSoup for Web Scraping
+
 &nbsp;  
+&nbsp;    
+See the IDE script [here](https://github.com/GBlanch/Python-with-BeautifulSoup-for-Web-Scraping/blob/main/1.ebay/web_scrap_ebay_script.ipynb)
 ## Table of contents
 
 + [Introduction](#introduction)
