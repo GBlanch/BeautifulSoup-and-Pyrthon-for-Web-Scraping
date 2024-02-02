@@ -5,8 +5,7 @@ See the IDE script of this repo [here](https://github.com/GBlanch/Python-with-Be
 
 Feel also free to browse [this repo](https://github.com/GBlanch/Web-scraping/blob/main/1.List%20of%20best-selling%20books/web_scraping_04AUG2023.ipynb) to see other **web scraping works** that I developed. 
 
-&nbsp;  
-&nbsp;    
+
 ## Table of contents
 
 + [Introduction](#introduction)
